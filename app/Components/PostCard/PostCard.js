@@ -53,7 +53,7 @@ class PostCard extends HTMLElement {
     render() {
         if (this.shadowRoot) {
             this.shadowRoot.innerHTML = `
-            <link rel="stylesheet" href="./app/components/PostCard/style.css">
+            <link rel="stylesheet" href="./app/Components/PostCard/style.css">
             <section>
                 <div class="page" id="${this.uid}">
                 <div class="above">
